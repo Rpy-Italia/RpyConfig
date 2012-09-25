@@ -616,7 +616,7 @@ public class Monitor extends javax.swing.JFrame {
 
             //overscan_top
             if(ckovtop.isSelected()){
-                item = oright.getValue().toString();
+                item = otop.getValue().toString();
                 overscan_top = "overscan_top="+item;        
             }
 
