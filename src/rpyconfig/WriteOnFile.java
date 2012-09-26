@@ -38,7 +38,7 @@ public class WriteOnFile {
         arrayObj = mkArray;
         array = arrayObj.getArray();
         //arrayObj.printArray();
-        file = new FileWriter("/config.txt");
+        file = new FileWriter("config.txt");
         write();
     }
     
