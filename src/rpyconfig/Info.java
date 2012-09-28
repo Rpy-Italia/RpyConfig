@@ -91,7 +91,7 @@ public class Info extends javax.swing.JFrame {
 
         jLabel6.setText("Marchegiano Danilo (d4n1x)");
 
-        jLabel7.setText("0.95 Beta 1");
+        jLabel7.setText("0.95.1 Beta");
 
         jLabel8.setText("GNU General Public License");
 
@@ -132,7 +132,7 @@ public class Info extends javax.swing.JFrame {
                                     .addComponent(jLabel8)
                                     .addComponent(jLabel9)))
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 10, Short.MAX_VALUE))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
