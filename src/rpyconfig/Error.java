@@ -52,7 +52,9 @@ public class Error extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
 
-        setUndecorated(true);
+        setTitle("Error");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Home.class.getResource("icon.png")));
+        setResizable(false);
 
         jLabel2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jLabel2.setText("Error !!!");

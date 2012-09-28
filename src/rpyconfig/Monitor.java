@@ -108,10 +108,10 @@ public class Monitor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Monitor settings");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Home.class.getResource("icon.png")));
         setResizable(false);
-        setUndecorated(true);
 
-        jLabel3.setFont(jLabel3.getFont().deriveFont(jLabel3.getFont().getStyle() | java.awt.Font.BOLD, jLabel3.getFont().getSize()+1));
+        jLabel3.setFont(jLabel3.getFont().deriveFont(jLabel3.getFont().getSize()+4f));
         jLabel3.setText("HDMI");
 
         mode.setFont(mode.getFont());
@@ -162,7 +162,7 @@ public class Monitor extends javax.swing.JFrame {
             }
         });
 
-        jLabel12.setFont(jLabel12.getFont().deriveFont(jLabel12.getFont().getStyle() | java.awt.Font.BOLD, jLabel12.getFont().getSize()+1));
+        jLabel12.setFont(jLabel12.getFont().deriveFont(jLabel12.getFont().getSize()+4f));
         jLabel12.setText("SDTV");
 
         rotation.setFont(rotation.getFont());
@@ -267,7 +267,7 @@ public class Monitor extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 16)); // NOI18N
+        jLabel1.setFont(jLabel1.getFont().deriveFont(jLabel1.getFont().getSize()+4f));
         jLabel1.setText("SDTV / HDMI");
 
         jLabel2.setText("Monitor mode (CEA):");
@@ -319,7 +319,7 @@ public class Monitor extends javax.swing.JFrame {
 
         jLabel7.setText("Bit");
 
-        jLabel8.setFont(jLabel8.getFont().deriveFont(jLabel8.getFont().getStyle() | java.awt.Font.BOLD, jLabel8.getFont().getSize()+5));
+        jLabel8.setFont(jLabel8.getFont().deriveFont(jLabel8.getFont().getSize()+8f));
         jLabel8.setText("Monitor settings");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -374,7 +374,6 @@ public class Monitor extends javax.swing.JFrame {
                                     .addGap(12, 12, 12)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel1)
-                                        .addComponent(jLabel8)
                                         .addComponent(jLabel12)
                                         .addGroup(layout.createSequentialGroup()
                                             .addGap(12, 12, 12)
@@ -441,7 +440,10 @@ public class Monitor extends javax.swing.JFrame {
                                 .addComponent(jSeparator4, javax.swing.GroupLayout.Alignment.LEADING))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(326, 326, 326)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel8)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(

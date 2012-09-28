@@ -24,12 +24,14 @@
 package rpyconfig;
 
 import java.awt.Dimension;
+import java.awt.Image;
 import java.awt.Toolkit;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.ArrayList;
 import java.lang.String;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 /**
@@ -75,7 +77,7 @@ public class Home extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("RpyConfig");
-        setIconImages(null);
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Home.class.getResource("icon.png")));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
