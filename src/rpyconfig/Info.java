@@ -60,6 +60,7 @@ public class Info extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
 
         setTitle("Info");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Home.class.getResource("icon.png")));
         setName("Information"); // NOI18N
         setResizable(false);
 
